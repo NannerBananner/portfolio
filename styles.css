@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+  width: 100%;            
+  height: 200vh;
+  font-size: 1.0em;
+}
+body {
+    background-color: black;
+ margin: 1vw;
+  height: 100%;
+}
+.glow {
+  font-size: 6.5vw;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px black, 0 0 20px black, 0 0 30px chartreuse, 0 0 40px lawngreen, 0 0 50px lime, 0 0 60px plum, 0 0 70px yellow;
+  }
+  
+  to {
+    text-shadow: 0 0 20px black, 0 0 30px gold, 0 0 40px palegreen, 0 0 50px mediumspringgreen, 0 0 60px magenta, 0 0 70px magenta, 0 0 80px orchid;
+  }
+}
+/*Styles for the header*/
+header {
+  margin: auto;
+  background: antiquewhite;
+  padding: 1vw;
+  border: double 1vw black;
+  display: inline-block;
+  width: 70%;
+}
+.gallery_heading {
+    top: 0;
+    padding: 30px;
+    margin-bottom: 5px;
+}
+.gallery_heading h1 {
+    color: antiquewhite;
+    text-align: center;
+   font-family: "bimbo-pro-dripping-jumbo", sans-serif;
+font-weight: 900;
+font-style: normal;
+}
+
+.gallery_heading h2{
+  text-align: center;
+font-family: "anton", sans-serif;
+font-weight: 400;
+font-style: normal;
+  font-size: 2.5vw;
+  color: chartreuse;
+  text-shadow: 2px 2px 1px black
+}
+/*Styles for the social media buttons*/
+.fa {
+  padding: .2vw;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0px 0px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#nav_menu ul {
+	background: none;
+	list-style-type: none;
+	padding: 1em 0;
+	text-align: center;
+	color: lightyellow;
+}
+#nav_menu ul li {
+	display: inline; block;
+	padding: 0 1.5em;
+  color: lightyellow;
+}
+#nav_menu ul li a{
+	Text-decoration: none;
+	text-shadow: 4px 4px 8px black;
+font-family: "anton", sans-serif;
+font-weight: 400;
+font-style: normal;
+	font-size: 2vw;
+	color: lightyellow;
+}
+#nav_menu ul li a:current {
+	color: #24EF31;
+	text-shadow: 2px 2px 10px #F64DF0;
+}
+#nav_menu ul li a:hover, #nav_menu ul li a:focus {
+font-family: "anton", sans-serif;
+font-weight: 400;
+font-style: normal;
+	color: chartreuse;
+	font-size: 2.5vw;
+   animation: glow 2s ease-in-out infinite alternate;
+}
+#nav_menu ul li a:current {
+  color: chartreuse;
+	font-size: 2.5vw;
+}
+#nav_menu ul li a:visited: {
+	color: grey;
+	text-shadow: 5px 5px 5px black;
+	list-style-type: none;
+	text-decoration-style: strike-through;
+}
+/*Styles for the photo gallery*/
+.container {
+  width: 80%;
+  margin: auto;
+  background: beige;
+  padding: 1vw;
+  border: double 1vw black;
+}
+.card_wrapper {
+    column-gap: 5px;
+    column-count: 3;
+}
+.zoom {
+ 
+  transition: transform .2s; /* Animation */
+
+}
+.zoom:hover {
+  transform: scale(1.25); 
+}
+.card img {
+    width: 100%;
+}
+@media (max-width: 576px) {
+    .card_wrapper {
+        column-count: 3;
+    }
+}
+
+@media (max-width: 992px) {
+    .card_wrapper {
+        column-count: 3;
+    }
+}
+
+
