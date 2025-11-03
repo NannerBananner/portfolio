@@ -16,7 +16,7 @@ body {
 .glow {
   font-size: 6.5vw;
   text-align: center;
-  animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1.5s ease-in-out infinite alternate;
 }
 
 @-webkit-keyframes glow {
@@ -35,7 +35,7 @@ header {
   padding: 1vw;
   border: double 1vw black;
   display: inline-block;
-  width: 70%;
+  width: 90%;
 }
 .gallery_heading {
     top: 0;
@@ -76,23 +76,23 @@ font-style: normal;
 
 .fa-facebook {
   background: #3B5998;
-  color: white;
+  color: antiquewhite;
 }
 
 .fa-instagram {
   background: #125688;
-  color: white;
+  color: antiquewhite;
 }
 
 .fa-pinterest {
   background: #cb2027;
-  color: white;
+  color: antiquewhite;
 }
 
 .fa-snapchat-ghost {
   background: #fffc00;
-  color: white;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  color: antiquewhite;
+  text-shadow: -1px 1 black, 1 1px black, 1px 1 black, 1 -1px black;
 }
 
 #nav_menu ul {
@@ -103,7 +103,7 @@ font-style: normal;
 	color: lightyellow;
 }
 #nav_menu ul li {
-	display: inline; block;
+	display: inline block;
 	padding: 0 1.5em;
   color: lightyellow;
 }
@@ -132,7 +132,7 @@ font-style: normal;
   color: chartreuse;
 	font-size: 2.5vw;
 }
-#nav_menu ul li a:visited: {
+#nav_menu ul li a:visited {
 	color: grey;
 	text-shadow: 5px 5px 5px black;
 	list-style-type: none;
@@ -140,9 +140,9 @@ font-style: normal;
 }
 /*Styles for the photo gallery*/
 .container {
-  width: 80%;
+  width: 90%;
   margin: auto;
-  background: beige;
+  background: antiquewhite;
   padding: 1vw;
   border: double 1vw black;
 }
