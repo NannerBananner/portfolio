@@ -179,6 +179,7 @@ footer {
   border-color: antiquewhite;
   background-color: black;
   fill-opacity: 90%;
+  max-height: fit-content;
 }
 
 h4 {
