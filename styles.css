@@ -35,7 +35,7 @@ header {
   padding: 1vw;
   border: double 1vw black;
   display: inline-block;
-  width: 90%;
+  width: 95%;
 }
 .gallery_heading {
     top: 0;
@@ -55,7 +55,7 @@ font-style: normal;
 font-family: "anton", sans-serif;
 font-weight: 400;
 font-style: normal;
-  font-size: 2.5vw;
+  font-size: 2vw;
   color: chartreuse;
   text-shadow: 2px 2px 1px black
 }
@@ -66,7 +66,7 @@ font-style: normal;
   width: 30px;
   text-align: center;
   text-decoration: none;
-  margin: 0px 0px;
+  margin: -1px 1px 1px -1px ;
   border-radius: 50%;
 }
 
@@ -92,7 +92,7 @@ font-style: normal;
 .fa-snapchat-ghost {
   background: #fffc00;
   color: antiquewhite;
-  text-shadow: -1px 1 black, 1 1px black, 1px 1 black, 1 -1px black;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 #nav_menu ul {
@@ -100,12 +100,12 @@ font-style: normal;
 	list-style-type: none;
 	padding: 1em 0;
 	text-align: center;
-	color: lightyellow;
+	color: antiquewhite;
 }
 #nav_menu ul li {
 	display: inline block;
 	padding: 0 1.5em;
-  color: lightyellow;
+  color: antiquewhite;
 }
 #nav_menu ul li a{
 	Text-decoration: none;
@@ -114,10 +114,10 @@ font-family: "anton", sans-serif;
 font-weight: 400;
 font-style: normal;
 	font-size: 2vw;
-	color: lightyellow;
+	color: antiquewhite;
 }
 #nav_menu ul li a:current {
-	color: #24EF31;
+	color: chartreuse;
 	text-shadow: 2px 2px 10px #F64DF0;
 }
 #nav_menu ul li a:hover, #nav_menu ul li a:focus {
@@ -125,15 +125,12 @@ font-family: "anton", sans-serif;
 font-weight: 400;
 font-style: normal;
 	color: chartreuse;
-	font-size: 2.5vw;
-   animation: glow 2s ease-in-out infinite alternate;
+	font-size: 2vw;
+   animation: glow 2.5s ease-in-out infinite alternate;
 }
-#nav_menu ul li a:current {
-  color: chartreuse;
-	font-size: 2.5vw;
-}
+
 #nav_menu ul li a:visited {
-	color: grey;
+	color: plum;
 	text-shadow: 5px 5px 5px black;
 	list-style-type: none;
 	text-decoration-style: strike-through;
@@ -153,7 +150,6 @@ font-style: normal;
 .zoom {
  
   transition: transform .2s; /* Animation */
-
 }
 .zoom:hover {
   transform: scale(1.25); 
@@ -173,4 +169,6 @@ font-style: normal;
     }
 }
 
-
+footer{
+  
+}
