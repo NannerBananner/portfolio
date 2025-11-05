@@ -11,7 +11,7 @@ html {
 body {
     background-color: black;
  margin: 1vw;
-  height: 100%;
+  height: auto;
 }
 .glow {
   font-size: 6.5vw;
@@ -35,7 +35,7 @@ header {
   padding: 1vw;
   border: double 1vw black;
   display: inline-block;
-  width: 95%;
+  width: 90%;
 }
 
 .gallery_heading {
@@ -65,7 +65,7 @@ header {
 .fa {
   padding: .2vw;
   font-size: 30px;
-  width: 30px;
+  width: 35px;
   text-align: center;
   text-decoration: none;
   margin: -1px 1px 1px -1px ;
